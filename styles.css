@@ -234,6 +234,21 @@ h2 {
 
 /*------------------- Contact Section -------------------*/
 
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 .contact {
     text-align: center;
     font-size: 1.5em;
@@ -272,6 +287,13 @@ h2 {
 .highlight:hover {
     color: #ffdd57;
 }
+
+.wave-icon {
+    font-size: 1.5em;
+    margin-left: 0.3em;
+    vertical-align: middle;
+}
+
 
 /*------------------- Footer Section -------------------*/
 footer {
